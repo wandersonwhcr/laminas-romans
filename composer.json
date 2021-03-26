@@ -1,9 +1,21 @@
 {
-    "name": "wandersonwhcr/zend-romans",
-    "description": "Zend Framework Romans Integration",
+    "name": "wandersonwhcr/laminas-romans",
+    "description": "Laminas Project Romans Integration",
     "type": "library",
     "license": "MIT",
-    "keywords": ["zend-framework", "zend-filter", "zend-validator", "zend-hydrator", "roman", "roman-number", "roman-numeral", "converter", "format"],
+    "keywords": [
+        "laminas",
+        "laminas-project",
+        "laminas-filter",
+        "laminas-validator",
+        "laminas-hydrator",
+        "laminas-framework",
+        "roman",
+        "roman-number",
+        "roman-numeral",
+        "converter",
+        "format"
+    ],
     "autoload": {
         "psr-4": {
             "Zend\\Romans\\": "src"
