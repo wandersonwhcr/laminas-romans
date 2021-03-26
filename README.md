@@ -178,6 +178,19 @@ services configured. The list below shows all services available with
   * `Roman` => `Zend\Romans\View\Helper\Roman`
   * `roman` => `Zend\Romans\View\Helper\Roman`
 
+## Development
+
+You can use Docker Compose to build an image and run a container to develop and
+test this package.
+
+```bash
+docker-compose up --detach
+
+docker-compose exec romans composer install
+
+docker-compose exec romans composer test
+```
+
 ## License
 
 This package is opensource and available under license MIT described in
