@@ -2,7 +2,6 @@
 
 Zend Framework Romans Integration
 
-[![Build Status](https://travis-ci.org/wandersonwhcr/zend-romans.svg?branch=master)](https://travis-ci.org/wandersonwhcr/zend-romans)
 [![Latest Stable Version](https://poser.pugx.org/wandersonwhcr/zend-romans/v/stable?format=flat)](https://packagist.org/packages/wandersonwhcr/zend-romans)
 [![License](https://poser.pugx.org/wandersonwhcr/zend-romans/license?format=flat)](https://packagist.org/packages/wandersonwhcr/zend-romans)
 
@@ -178,6 +177,19 @@ services configured. The list below shows all services available with
   * `Zend\Romans\View\Helper\Roman`
   * `Roman` => `Zend\Romans\View\Helper\Roman`
   * `roman` => `Zend\Romans\View\Helper\Roman`
+
+## Development
+
+You can use Docker Compose to build an image and run a container to develop and
+test this package.
+
+```bash
+docker-compose up --detach
+
+docker-compose exec romans composer install
+
+docker-compose exec romans composer test
+```
 
 ## License
 
