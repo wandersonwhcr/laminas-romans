@@ -28,7 +28,7 @@
     },
     "require": {
         "php": "^7.0",
-        "wandersonwhcr/romans": "^1.0",
+        "wandersonwhcr/romans": "^1.2",
         "zendframework/zend-filter": "2.7.*",
         "zendframework/zend-hydrator": "2.2.*",
         "zendframework/zend-validator": "2.9.*",
