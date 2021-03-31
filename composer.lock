@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07a2bdc4ac00639a7c62bfc613cde155",
+    "content-hash": "316997e09f5783bc5fe78c306422696a",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -202,31 +202,36 @@
         },
         {
             "name": "zendframework/zend-filter",
-            "version": "2.7.2",
+            "version": "2.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-filter.git",
-                "reference": "b8d0ff872f126631bf63a932e33aa2d22d467175"
+                "reference": "d78f2cdde1c31975e18b2a0753381ed7b61118ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-filter/zipball/b8d0ff872f126631bf63a932e33aa2d22d467175",
-                "reference": "b8d0ff872f126631bf63a932e33aa2d22d467175",
+                "url": "https://api.github.com/repos/zendframework/zend-filter/zipball/d78f2cdde1c31975e18b2a0753381ed7b61118ef",
+                "reference": "d78f2cdde1c31975e18b2a0753381ed7b61118ef",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0",
-                "zendframework/zend-stdlib": "^2.7 || ^3.0"
+                "php": "^5.6 || ^7.0",
+                "zendframework/zend-stdlib": "^2.7.7 || ^3.1"
+            },
+            "conflict": {
+                "zendframework/zend-validator": "<2.10.1"
             },
             "require-dev": {
-                "pear/archive_tar": "^1.4",
-                "phpunit/phpunit": "^6.0.10 || ^5.7.17",
+                "pear/archive_tar": "^1.4.3",
+                "phpunit/phpunit": "^5.7.23 || ^6.4.3",
+                "psr/http-factory": "^1.0",
                 "zendframework/zend-coding-standard": "~1.0.0",
-                "zendframework/zend-crypt": "^2.6 || ^3.0",
-                "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3",
-                "zendframework/zend-uri": "^2.5"
+                "zendframework/zend-crypt": "^3.2.1",
+                "zendframework/zend-servicemanager": "^2.7.8 || ^3.3",
+                "zendframework/zend-uri": "^2.6"
             },
             "suggest": {
+                "psr/http-factory-implementation": "psr/http-factory-implementation, for creating file upload instances when consuming PSR-7 in file upload filters",
                 "zendframework/zend-crypt": "Zend\\Crypt component, for encryption filters",
                 "zendframework/zend-i18n": "Zend\\I18n component for filters depending on i18n functionality",
                 "zendframework/zend-servicemanager": "Zend\\ServiceManager component, for using the filter chain functionality",
@@ -235,8 +240,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev",
-                    "dev-develop": "2.8-dev"
+                    "dev-master": "2.9.x-dev",
+                    "dev-develop": "2.10.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\Filter",
@@ -252,18 +257,22 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "provides a set of commonly needed data filters",
-            "homepage": "https://github.com/zendframework/zend-filter",
+            "description": "Programmatically filter and normalize data and files",
             "keywords": [
+                "ZendFramework",
                 "filter",
-                "zf2"
+                "zf"
             ],
             "support": {
+                "chat": "https://zendframework-slack.herokuapp.com",
+                "docs": "https://docs.zendframework.com/zend-filter/",
+                "forum": "https://discourse.zendframework.com/c/questions/components",
                 "issues": "https://github.com/zendframework/zend-filter/issues",
-                "source": "https://github.com/zendframework/zend-filter/tree/release-2.7.2"
+                "rss": "https://github.com/zendframework/zend-filter/releases.atom",
+                "source": "https://github.com/zendframework/zend-filter"
             },
             "abandoned": "laminas/laminas-filter",
-            "time": "2017-05-17T20:56:17+00:00"
+            "time": "2019-08-19T07:08:04+00:00"
         },
         {
             "name": "zendframework/zend-hydrator",
@@ -443,25 +452,28 @@
         },
         {
             "name": "zendframework/zend-validator",
-            "version": "2.9.2",
+            "version": "2.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-validator.git",
-                "reference": "a58dbe8463b93de0d650e296d56cb7da4a129ff3"
+                "reference": "b54acef1f407741c5347f2a97f899ab21f2229ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/a58dbe8463b93de0d650e296d56cb7da4a129ff3",
-                "reference": "a58dbe8463b93de0d650e296d56cb7da4a129ff3",
+                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/b54acef1f407741c5347f2a97f899ab21f2229ef",
+                "reference": "b54acef1f407741c5347f2a97f899ab21f2229ef",
                 "shasum": ""
             },
             "require": {
                 "container-interop/container-interop": "^1.1",
-                "php": "^5.6 || ^7.0",
-                "zendframework/zend-stdlib": "^2.7.6 || ^3.1"
+                "php": "^7.1",
+                "zendframework/zend-stdlib": "^3.2.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.0.8 || ^5.7.15",
+                "psr/http-client": "^1.0",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0",
                 "zendframework/zend-cache": "^2.6.1",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-config": "^2.6",
@@ -471,24 +483,25 @@
                 "zendframework/zend-i18n": "^2.6",
                 "zendframework/zend-math": "^2.6",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3",
-                "zendframework/zend-session": "^2.6.2",
+                "zendframework/zend-session": "^2.8",
                 "zendframework/zend-uri": "^2.5"
             },
             "suggest": {
+                "psr/http-message": "psr/http-message, required when validating PSR-7 UploadedFileInterface instances via the Upload and UploadFile validators",
                 "zendframework/zend-db": "Zend\\Db component, required by the (No)RecordExists validator",
                 "zendframework/zend-filter": "Zend\\Filter component, required by the Digits validator",
                 "zendframework/zend-i18n": "Zend\\I18n component to allow translation of validation error messages",
                 "zendframework/zend-i18n-resources": "Translations of validator messages",
                 "zendframework/zend-math": "Zend\\Math component, required by the Csrf validator",
                 "zendframework/zend-servicemanager": "Zend\\ServiceManager component to allow using the ValidatorPluginManager and validator chains",
-                "zendframework/zend-session": "Zend\\Session component, required by the Csrf validator",
+                "zendframework/zend-session": "Zend\\Session component, ^2.8; required by the Csrf validator",
                 "zendframework/zend-uri": "Zend\\Uri component, required by the Uri and Sitemap\\Loc validators"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.9-dev",
-                    "dev-develop": "2.10-dev"
+                    "dev-master": "2.13.x-dev",
+                    "dev-develop": "2.14.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\Validator",
@@ -504,18 +517,22 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "provides a set of commonly needed validators",
-            "homepage": "https://github.com/zendframework/zend-validator",
+            "description": "Validation classes for a wide range of domains, and the ability to chain validators to create complex validation criteria",
             "keywords": [
+                "ZendFramework",
                 "validator",
-                "zf2"
+                "zf"
             ],
             "support": {
+                "chat": "https://zendframework-slack.herokuapp.com",
+                "docs": "https://docs.zendframework.com/zend-validator/",
+                "forum": "https://discourse.zendframework.com/c/questions/components",
                 "issues": "https://github.com/zendframework/zend-validator/issues",
-                "source": "https://github.com/zendframework/zend-validator/tree/master"
+                "rss": "https://github.com/zendframework/zend-validator/releases.atom",
+                "source": "https://github.com/zendframework/zend-validator"
             },
             "abandoned": "laminas/laminas-validator",
-            "time": "2017-07-20T16:44:59+00:00"
+            "time": "2019-12-28T04:07:18+00:00"
         },
         {
             "name": "zendframework/zend-view",
