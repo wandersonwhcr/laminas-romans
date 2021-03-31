@@ -142,8 +142,8 @@ your `composer.json` file.
 ```json
 {
     "require": {
-        "zendframework/zend-modulemanager": "2.7.*",
-        "zendframework/zend-servicemanager": "3.3.*"
+        "laminas/laminas-modulemanager": "2.10.*",
+        "laminas/laminas-servicemanager": "3.6.*"
     }
 }
 ```

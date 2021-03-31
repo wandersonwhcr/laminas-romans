@@ -45,8 +45,8 @@
         "laminas/laminas-servicemanager": "3.6.*"
     },
     "suggest": {
-        "zendframework/zend-modulemanager": "Needed to load this package as Zend Framework module",
-        "zendframework/zend-servicemanager": "Allows the use of service factories into Zend Framework"
+        "laminas/laminas-modulemanager": "Needed to load this package as Laminas module",
+        "laminas/laminas-servicemanager": "Allows the use of service factories into Laminas"
     },
     "config": {
         "preferred-install": {
