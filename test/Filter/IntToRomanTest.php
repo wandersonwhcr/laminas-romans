@@ -1,6 +1,6 @@
 <?php
 
-namespace ZendTest\Romans\Filter;
+namespace LaminasTest\Romans\Filter;
 
 use PHPUnit\Framework\TestCase;
 use Zend\Filter\FilterInterface;

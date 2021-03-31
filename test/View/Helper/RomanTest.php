@@ -1,6 +1,6 @@
 <?php
 
-namespace ZendTest\Romans\View\Helper;
+namespace LaminasTest\Romans\View\Helper;
 
 use PHPUnit\Framework\TestCase;
 use Zend\Romans\Filter\IntToRoman as IntToRomanFilter;

@@ -1,6 +1,6 @@
 <?php
 
-namespace ZendTest\Romans\Hydrator\Strategy;
+namespace LaminasTest\Romans\Hydrator\Strategy;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;

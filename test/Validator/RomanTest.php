@@ -1,6 +1,6 @@
 <?php
 
-namespace ZendTest\Romans\Validator;
+namespace LaminasTest\Romans\Validator;
 
 use PHPUnit\Framework\TestCase;
 use Zend\Romans\Validator\Roman;

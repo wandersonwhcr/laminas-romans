@@ -1,6 +1,6 @@
 <?php
 
-namespace ZendTest\Romans;
+namespace LaminasTest\Romans;
 
 use Interop\Container\ContainerInterface;
 use PHPUnit\Framework\TestCase;

@@ -23,7 +23,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "ZendTest\\Romans\\": "test"
+            "LaminasTest\\Romans\\": "test"
         }
     },
     "require": {
