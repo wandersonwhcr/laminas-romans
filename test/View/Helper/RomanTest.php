@@ -1,9 +1,10 @@
 <?php
 
-namespace Zend\Romans\View\Helper;
+namespace ZendTest\Romans\View\Helper;
 
 use PHPUnit\Framework\TestCase;
 use Zend\Romans\Filter\IntToRoman as IntToRomanFilter;
+use Zend\Romans\View\Helper\Roman;
 use Zend\View\Helper\HelperInterface;
 
 /**
