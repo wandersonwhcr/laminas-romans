@@ -1,9 +1,9 @@
 <?php
 
-namespace Zend\Romans\View\Helper;
+namespace Laminas\Romans\View\Helper;
 
-use Zend\Romans\Filter\IntToRoman as IntToRomanFilter;
-use Zend\View\Helper\AbstractHelper;
+use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
+use Laminas\View\Helper\AbstractHelper;
 
 /**
  * Roman Helper

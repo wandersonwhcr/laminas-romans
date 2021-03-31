@@ -1,23 +1,23 @@
 <?php
 
-namespace ZendTest\Romans;
+namespace LaminasTest\Romans;
 
 use Interop\Container\ContainerInterface;
+use Laminas\ModuleManager\Feature\FilterProviderInterface;
+use Laminas\ModuleManager\Feature\ServiceProviderInterface;
+use Laminas\ModuleManager\Feature\ValidatorProviderInterface;
+use Laminas\ModuleManager\Feature\ViewHelperProviderInterface;
+use Laminas\Mvc\Application;
+use Laminas\Romans\Filter;
+use Laminas\Romans\Hydrator\Strategy as HydratorStrategy;
+use Laminas\Romans\Module;
+use Laminas\Romans\Validator;
+use Laminas\Romans\View\Helper as ViewHelper;
 use PHPUnit\Framework\TestCase;
 use Romans\Filter as RomansFilter;
 use Romans\Grammar as RomansGrammar;
 use Romans\Lexer as RomansLexer;
 use Romans\Parser as RomansParser;
-use Zend\ModuleManager\Feature\FilterProviderInterface;
-use Zend\ModuleManager\Feature\ServiceProviderInterface;
-use Zend\ModuleManager\Feature\ValidatorProviderInterface;
-use Zend\ModuleManager\Feature\ViewHelperProviderInterface;
-use Zend\Mvc\Application;
-use Zend\Romans\Filter;
-use Zend\Romans\Hydrator\Strategy as HydratorStrategy;
-use Zend\Romans\Module;
-use Zend\Romans\Validator;
-use Zend\Romans\View\Helper as ViewHelper;
 
 /**
  * Module Test
@@ -27,7 +27,7 @@ class ModuleTest extends TestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->module = new Module();
     }
@@ -44,11 +44,11 @@ class ModuleTest extends TestCase
             'module_listener_options' => [],
             // Modules
             'modules' => [
-                'Zend\Router',
-                'Zend\Filter',
-                'Zend\Validator',
-                'Zend\Hydrator',
-                'Zend\Romans',
+                'Laminas\Router',
+                'Laminas\Filter',
+                'Laminas\Validator',
+                'Laminas\Hydrator',
+                'Laminas\Romans',
             ],
         ]);
     }

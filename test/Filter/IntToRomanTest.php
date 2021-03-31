@@ -1,10 +1,10 @@
 <?php
 
-namespace ZendTest\Romans\Filter;
+namespace LaminasTest\Romans\Filter;
 
+use Laminas\Filter\FilterInterface;
+use Laminas\Romans\Filter\IntToRoman;
 use PHPUnit\Framework\TestCase;
-use Zend\Filter\FilterInterface;
-use Zend\Romans\Filter\IntToRoman;
 
 /**
  * Int to Roman Test
@@ -14,7 +14,7 @@ class IntToRomanTest extends TestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->filter = new IntToRoman();
     }

@@ -1,11 +1,11 @@
 <?php
 
-namespace Zend\Romans\Filter\Factory;
+namespace Laminas\Romans\Filter\Factory;
 
 use Interop\Container\ContainerInterface;
+use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 use Romans\Filter as RomansFilter;
-use Zend\Romans\Filter\IntToRoman as IntToRomanFilter;
-use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**
  * IntToRoman Filter Factory

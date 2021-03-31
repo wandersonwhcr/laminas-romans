@@ -1,12 +1,12 @@
 <?php
 
-namespace Zend\Romans\Hydrator\Strategy\Factory;
+namespace Laminas\Romans\Hydrator\Strategy\Factory;
 
 use Interop\Container\ContainerInterface;
-use Zend\Romans\Filter\IntToRoman as IntToRomanFilter;
-use Zend\Romans\Filter\RomanToInt as RomanToIntFilter;
-use Zend\Romans\Hydrator\Strategy\Roman as RomanStrategy;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
+use Laminas\Romans\Filter\RomanToInt as RomanToIntFilter;
+use Laminas\Romans\Hydrator\Strategy\Roman as RomanStrategy;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Roman Hydrator Strategy Factory

@@ -1,10 +1,11 @@
 <?php
 
-namespace Zend\Romans\View\Helper;
+namespace LaminasTest\Romans\View\Helper;
 
+use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
+use Laminas\Romans\View\Helper\Roman;
+use Laminas\View\Helper\HelperInterface;
 use PHPUnit\Framework\TestCase;
-use Zend\Romans\Filter\IntToRoman as IntToRomanFilter;
-use Zend\View\Helper\HelperInterface;
 
 /**
  * Roman Test
@@ -14,7 +15,7 @@ class RomanTest extends TestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->helper = new Roman();
     }

@@ -1,11 +1,11 @@
 <?php
 
-namespace ZendTest\Romans\Hydrator\Strategy;
+namespace LaminasTest\Romans\Hydrator\Strategy;
 
 use InvalidArgumentException;
+use Laminas\Hydrator\Strategy\StrategyInterface;
+use Laminas\Romans\Hydrator\Strategy\Roman as RomanStrategy;
 use PHPUnit\Framework\TestCase;
-use Zend\Hydrator\Strategy\StrategyInterface;
-use Zend\Romans\Hydrator\Strategy\Roman as RomanStrategy;
 
 /**
  * Roman Test
@@ -15,7 +15,7 @@ class RomanTest extends TestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->strategy = new RomanStrategy();
     }

@@ -1,11 +1,11 @@
 <?php
 
-namespace Zend\Romans\View\Helper\Factory;
+namespace Laminas\Romans\View\Helper\Factory;
 
 use Interop\Container\ContainerInterface;
-use Zend\Romans\Filter\IntToRoman as IntToRomanFilter;
-use Zend\Romans\View\Helper\Roman as RomanViewHelper;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
+use Laminas\Romans\View\Helper\Roman as RomanViewHelper;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Roman ViewHelper Factory

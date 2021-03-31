@@ -1,10 +1,10 @@
 <?php
 
-namespace ZendTest\Romans\Validator;
+namespace LaminasTest\Romans\Validator;
 
+use Laminas\Romans\Validator\Roman;
+use Laminas\Validator\ValidatorInterface;
 use PHPUnit\Framework\TestCase;
-use Zend\Romans\Validator\Roman;
-use Zend\Validator\ValidatorInterface;
 
 /**
  * Roman Test
@@ -14,7 +14,7 @@ class RomanTest extends TestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->validator = new Roman();
     }
