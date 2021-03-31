@@ -2,6 +2,7 @@
 
 Laminas Project Romans Integration
 
+[![Build Status](https://github.com/wandersonwhcr/laminas-romans/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/wandersonwhcr/laminas-romans/actions/workflows/test.yml?query=branch%3Amain)
 [![Latest Stable Version](https://poser.pugx.org/wandersonwhcr/laminas-romans/v/stable?format=flat)](https://packagist.org/packages/wandersonwhcr/laminas-romans)
 [![License](https://poser.pugx.org/wandersonwhcr/laminas-romans/license?format=flat)](https://packagist.org/packages/wandersonwhcr/laminas-romans)
 
