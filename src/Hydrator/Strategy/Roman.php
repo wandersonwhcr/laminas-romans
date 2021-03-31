@@ -92,8 +92,10 @@ class Roman implements StrategyInterface
     /**
      * {@inheritdoc}
      */
-    public function hydrate($value)
+    public function hydrate($value, ?array $data = [])
     {
+        unset($data); // unused
+
         if (! is_int($value)) {
             throw new InvalidArgumentException('Invalid value type; must be "int"');
         }
@@ -110,8 +112,10 @@ class Roman implements StrategyInterface
     /**
      * {@inheritdoc}
      */
-    public function extract($value)
+    public function extract($value, ?object $object = null)
     {
+        unset($object); // unused
+
         if (! is_string($value)) {
             throw new InvalidArgumentException('Invalid value type; must be "string"');
         }
