@@ -14,7 +14,7 @@ class RomanToIntTest extends TestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->filter = new RomanToInt();
     }

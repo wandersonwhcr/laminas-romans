@@ -15,7 +15,7 @@ class RomanTest extends TestCase
     /**
      * {@inheritdoc}
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->strategy = new RomanStrategy();
     }
