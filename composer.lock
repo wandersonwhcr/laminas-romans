@@ -92,34 +92,30 @@
         },
         {
             "name": "wandersonwhcr/romans",
-            "version": "v1.2.3",
+            "version": "v1.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wandersonwhcr/romans.git",
-                "reference": "fe09d21c4a1498fad1acb28a585b6c3333feb88e"
+                "reference": "efd40fd7b12727c3c6a4286a8f1826f05f807fbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wandersonwhcr/romans/zipball/fe09d21c4a1498fad1acb28a585b6c3333feb88e",
-                "reference": "fe09d21c4a1498fad1acb28a585b6c3333feb88e",
+                "url": "https://api.github.com/repos/wandersonwhcr/romans/zipball/efd40fd7b12727c3c6a4286a8f1826f05f807fbd",
+                "reference": "efd40fd7b12727c3c6a4286a8f1826f05f807fbd",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0"
+                "php": ">=7.4"
             },
             "require-dev": {
-                "jakub-onderka/php-parallel-lint": "1.0.*",
+                "php-parallel-lint/php-parallel-lint": "1.2.*",
                 "phpmd/phpmd": "2.6.*",
-                "phpunit/phpunit": "6.1.*",
-                "sebastian/phpcpd": "3.0.*",
+                "phpunit/phpunit": "9.5.*",
+                "sebastian/phpcpd": "6.0.3",
+                "slevomat/coding-standard": "^6.4",
                 "squizlabs/php_codesniffer": "3.5.*"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-develop": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Romans\\": "src"
@@ -141,9 +137,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wandersonwhcr/romans/issues",
-                "source": "https://github.com/wandersonwhcr/romans/tree/v1.2.3"
+                "source": "https://github.com/wandersonwhcr/romans/tree/v1.3.5"
             },
-            "time": "2021-03-18T14:38:41+00:00"
+            "time": "2021-03-25T00:09:27+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
