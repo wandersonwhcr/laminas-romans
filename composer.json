@@ -64,10 +64,5 @@
             "phpmd src text phpmd.xml",
             "phpcs"
         ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "1.0.x-dev"
-        }
     }
 }
