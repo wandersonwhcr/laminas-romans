@@ -29,10 +29,10 @@
     "require": {
         "php": "^7.0",
         "wandersonwhcr/romans": "1.3.*",
-        "zendframework/zend-hydrator": "3.0.*",
         "zendframework/zend-validator": "2.13.*",
         "zendframework/zend-view": "2.11.*",
-        "laminas/laminas-filter": "2.11.*"
+        "laminas/laminas-filter": "2.11.*",
+        "laminas/laminas-hydrator": "4.1.*"
     },
     "require-dev": {
         "php-parallel-lint/php-parallel-lint": "1.2.*",
