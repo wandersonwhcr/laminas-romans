@@ -1,6 +1,6 @@
 <?php
 
-namespace Zend\Romans\Romans\Factory;
+namespace Laminas\Romans\Romans\Factory;
 
 use Interop\Container\ContainerInterface;
 use Romans\Grammar\Grammar as RomansGrammar;

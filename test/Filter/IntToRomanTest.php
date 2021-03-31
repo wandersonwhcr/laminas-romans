@@ -2,9 +2,9 @@
 
 namespace LaminasTest\Romans\Filter;
 
+use Laminas\Romans\Filter\IntToRoman;
 use PHPUnit\Framework\TestCase;
 use Zend\Filter\FilterInterface;
-use Zend\Romans\Filter\IntToRoman;
 
 /**
  * Int to Roman Test

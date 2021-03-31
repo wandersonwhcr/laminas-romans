@@ -1,7 +1,11 @@
 <?php
 
-namespace Zend\Romans;
+namespace Laminas\Romans;
 
+use Laminas\Romans\Hydrator\Strategy as HydratorStrategy;
+use Laminas\Romans\Romans\Factory as RomansFactory;
+use Laminas\Romans\Validator;
+use Laminas\Romans\View\Helper as ViewHelper;
 use Romans\Filter as RomansFilter;
 use Romans\Grammar as RomansGrammar;
 use Romans\Lexer as RomansLexer;
@@ -10,10 +14,6 @@ use Zend\ModuleManager\Feature\FilterProviderInterface;
 use Zend\ModuleManager\Feature\ServiceProviderInterface;
 use Zend\ModuleManager\Feature\ValidatorProviderInterface;
 use Zend\ModuleManager\Feature\ViewHelperProviderInterface;
-use Zend\Romans\Hydrator\Strategy as HydratorStrategy;
-use Zend\Romans\Romans\Factory as RomansFactory;
-use Zend\Romans\Validator;
-use Zend\Romans\View\Helper as ViewHelper;
 
 /**
  * Romans Module

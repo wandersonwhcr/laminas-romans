@@ -1,10 +1,10 @@
 <?php
 
-namespace Zend\Romans\Validator\Factory;
+namespace Laminas\Romans\Validator\Factory;
 
 use Interop\Container\ContainerInterface;
+use Laminas\Romans\Validator\Roman as RomanValidator;
 use Romans\Filter\RomanToInt as RomanToIntFilter;
-use Zend\Romans\Validator\Roman as RomanValidator;
 use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**

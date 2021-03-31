@@ -1,10 +1,10 @@
 <?php
 
-namespace Zend\Romans\Filter\Factory;
+namespace Laminas\Romans\Filter\Factory;
 
 use Interop\Container\ContainerInterface;
+use Laminas\Romans\Filter\RomanToInt as RomanToIntFilter;
 use Romans\Filter as RomansFilter;
-use Zend\Romans\Filter\RomanToInt as RomanToIntFilter;
 use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**

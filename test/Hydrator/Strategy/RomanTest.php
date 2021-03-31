@@ -3,9 +3,9 @@
 namespace LaminasTest\Romans\Hydrator\Strategy;
 
 use InvalidArgumentException;
+use Laminas\Romans\Hydrator\Strategy\Roman as RomanStrategy;
 use PHPUnit\Framework\TestCase;
 use Zend\Hydrator\Strategy\StrategyInterface;
-use Zend\Romans\Hydrator\Strategy\Roman as RomanStrategy;
 
 /**
  * Roman Test

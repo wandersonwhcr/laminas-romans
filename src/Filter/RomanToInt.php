@@ -1,6 +1,6 @@
 <?php
 
-namespace Zend\Romans\Filter;
+namespace Laminas\Romans\Filter;
 
 use Romans\Lexer\Exception as LexerException;
 use Romans\Parser\Exception as ParserException;

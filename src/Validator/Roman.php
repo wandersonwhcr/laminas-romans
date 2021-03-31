@@ -1,6 +1,6 @@
 <?php
 
-namespace Zend\Romans\Validator;
+namespace Laminas\Romans\Validator;
 
 use Romans\Filter\RomanToInt as RomanToIntFilter;
 use Romans\Lexer\Exception as LexerException;

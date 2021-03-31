@@ -1,6 +1,6 @@
 <?php
 
-namespace Zend\Romans\Filter;
+namespace Laminas\Romans\Filter;
 
 use Romans\Filter\Exception as FilterException;
 use Romans\Filter\IntToRoman as IntToRomanFilter;

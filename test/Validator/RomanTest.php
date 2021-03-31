@@ -2,8 +2,8 @@
 
 namespace LaminasTest\Romans\Validator;
 
+use Laminas\Romans\Validator\Roman;
 use PHPUnit\Framework\TestCase;
-use Zend\Romans\Validator\Roman;
 use Zend\Validator\ValidatorInterface;
 
 /**

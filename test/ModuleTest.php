@@ -3,6 +3,11 @@
 namespace LaminasTest\Romans;
 
 use Interop\Container\ContainerInterface;
+use Laminas\Romans\Filter;
+use Laminas\Romans\Hydrator\Strategy as HydratorStrategy;
+use Laminas\Romans\Module;
+use Laminas\Romans\Validator;
+use Laminas\Romans\View\Helper as ViewHelper;
 use PHPUnit\Framework\TestCase;
 use Romans\Filter as RomansFilter;
 use Romans\Grammar as RomansGrammar;
@@ -13,11 +18,6 @@ use Zend\ModuleManager\Feature\ServiceProviderInterface;
 use Zend\ModuleManager\Feature\ValidatorProviderInterface;
 use Zend\ModuleManager\Feature\ViewHelperProviderInterface;
 use Zend\Mvc\Application;
-use Zend\Romans\Filter;
-use Zend\Romans\Hydrator\Strategy as HydratorStrategy;
-use Zend\Romans\Module;
-use Zend\Romans\Validator;
-use Zend\Romans\View\Helper as ViewHelper;
 
 /**
  * Module Test
@@ -48,7 +48,7 @@ class ModuleTest extends TestCase
                 'Zend\Filter',
                 'Zend\Validator',
                 'Zend\Hydrator',
-                'Zend\Romans',
+                'Laminas\Romans',
             ],
         ]);
     }

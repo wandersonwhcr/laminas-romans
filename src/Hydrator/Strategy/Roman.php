@@ -1,11 +1,11 @@
 <?php
 
-namespace Zend\Romans\Hydrator\Strategy;
+namespace Laminas\Romans\Hydrator\Strategy;
 
 use InvalidArgumentException;
+use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
+use Laminas\Romans\Filter\RomanToInt as RomanToIntFilter;
 use Zend\Hydrator\Strategy\StrategyInterface;
-use Zend\Romans\Filter\IntToRoman as IntToRomanFilter;
-use Zend\Romans\Filter\RomanToInt as RomanToIntFilter;
 
 /**
  * Roman Number Hydrator Strategy
