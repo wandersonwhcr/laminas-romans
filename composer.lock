@@ -3795,35 +3795,38 @@
         },
         {
             "name": "zendframework/zend-http",
-            "version": "2.6.0",
+            "version": "2.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-http.git",
-                "reference": "09f4d279f46d86be63171ff62ee0f79eca878678"
+                "reference": "e15e0ce45a2a4f642cd0b7b4f4d4d0366b729a1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-http/zipball/09f4d279f46d86be63171ff62ee0f79eca878678",
-                "reference": "09f4d279f46d86be63171ff62ee0f79eca878678",
+                "url": "https://api.github.com/repos/zendframework/zend-http/zipball/e15e0ce45a2a4f642cd0b7b4f4d4d0366b729a1a",
+                "reference": "e15e0ce45a2a4f642cd0b7b4f4d4d0366b729a1a",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5 || ^7.0",
-                "zendframework/zend-loader": "^2.5",
-                "zendframework/zend-stdlib": "^2.5 || ^3.0",
-                "zendframework/zend-uri": "^2.5",
-                "zendframework/zend-validator": "^2.5"
+                "php": "^5.6 || ^7.0",
+                "zendframework/zend-loader": "^2.5.1",
+                "zendframework/zend-stdlib": "^3.2.1",
+                "zendframework/zend-uri": "^2.5.2",
+                "zendframework/zend-validator": "^2.10.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.0",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.3",
                 "zendframework/zend-coding-standard": "~1.0.0",
-                "zendframework/zend-config": "^2.5"
+                "zendframework/zend-config": "^3.1 || ^2.6"
+            },
+            "suggest": {
+                "paragonie/certainty": "For automated management of cacert.pem"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6-dev",
-                    "dev-develop": "2.7-dev"
+                    "dev-master": "2.11.x-dev",
+                    "dev-develop": "2.12.x-dev"
                 }
             },
             "autoload": {
@@ -3835,18 +3838,24 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "provides an easy interface for performing Hyper-Text Transfer Protocol (HTTP) requests",
-            "homepage": "https://github.com/zendframework/zend-http",
+            "description": "Provides an easy interface for performing Hyper-Text Transfer Protocol (HTTP) requests",
             "keywords": [
+                "ZendFramework",
                 "http",
-                "zf2"
+                "http client",
+                "zend",
+                "zf"
             ],
             "support": {
+                "chat": "https://zendframework-slack.herokuapp.com",
+                "docs": "https://docs.zendframework.com/zend-http/",
+                "forum": "https://discourse.zendframework.com/c/questions/components",
                 "issues": "https://github.com/zendframework/zend-http/issues",
-                "source": "https://github.com/zendframework/zend-http/tree/release-2.6.0"
+                "rss": "https://github.com/zendframework/zend-http/releases.atom",
+                "source": "https://github.com/zendframework/zend-http"
             },
             "abandoned": "laminas/laminas-http",
-            "time": "2017-01-31T14:41:02+00:00"
+            "time": "2019-12-30T20:47:33+00:00"
         },
         {
             "name": "zendframework/zend-modulemanager",
@@ -3918,37 +3927,39 @@
         },
         {
             "name": "zendframework/zend-mvc",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-mvc.git",
-                "reference": "ba40f2c795403ce8b95f9251657cc2b96c40c417"
+                "reference": "236e7e1e3757e988fa06530c0a3f96a148858ae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-mvc/zipball/ba40f2c795403ce8b95f9251657cc2b96c40c417",
-                "reference": "ba40f2c795403ce8b95f9251657cc2b96c40c417",
+                "url": "https://api.github.com/repos/zendframework/zend-mvc/zipball/236e7e1e3757e988fa06530c0a3f96a148858ae8",
+                "reference": "236e7e1e3757e988fa06530c0a3f96a148858ae8",
                 "shasum": ""
             },
             "require": {
-                "container-interop/container-interop": "^1.1",
+                "container-interop/container-interop": "^1.2",
                 "php": "^5.6 || ^7.0",
-                "zendframework/zend-eventmanager": "^3.0",
-                "zendframework/zend-http": "^2.5.4",
-                "zendframework/zend-modulemanager": "^2.7.1",
-                "zendframework/zend-router": "^3.0.1",
-                "zendframework/zend-servicemanager": "^3.0.3",
-                "zendframework/zend-stdlib": "^3.0",
-                "zendframework/zend-view": "^2.6.7"
+                "zendframework/zend-eventmanager": "^3.2",
+                "zendframework/zend-http": "^2.7",
+                "zendframework/zend-modulemanager": "^2.8",
+                "zendframework/zend-router": "^3.0.2",
+                "zendframework/zend-servicemanager": "^3.3",
+                "zendframework/zend-stdlib": "^3.1",
+                "zendframework/zend-view": "^2.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.0.7 || ^5.7.14",
+                "http-interop/http-middleware": "^0.4.1",
+                "phpunit/phpunit": "^6.4.4 || ^5.7.14",
                 "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-json": "^2.6.1 || ^3.0",
-                "zendframework/zend-psr7bridge": "^0.2",
+                "zendframework/zend-psr7bridge": "^1.0",
                 "zendframework/zend-stratigility": "^2.0.1"
             },
             "suggest": {
+                "http-interop/http-middleware": "^0.4.1 to be used together with zend-stratigility",
                 "zendframework/zend-json": "(^2.6.1 || ^3.0) To auto-deserialize JSON body content in AbstractRestfulController extensions, when json_decode is unavailable",
                 "zendframework/zend-log": "^2.9.1  To provide log functionality via LogFilterManager, LogFormatterManager, and LogProcessorManager",
                 "zendframework/zend-mvc-console": "zend-mvc-console provides the ability to expose zend-mvc as a console application",
@@ -3978,38 +3989,43 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "homepage": "https://github.com/zendframework/zend-mvc",
+            "description": "Zend Framework's event-driven MVC layer, including MVC Applications, Controllers, and Plugins",
             "keywords": [
+                "ZendFramework",
                 "mvc",
-                "zf2"
+                "zf"
             ],
             "support": {
+                "docs": "https://docs.zendframework.com/zend-mvc/",
+                "forum": "https://discourse.zendframework.com/c/questions/components",
                 "issues": "https://github.com/zendframework/zend-mvc/issues",
-                "source": "https://github.com/zendframework/zend-mvc/tree/release-3.1.0"
+                "rss": "https://github.com/zendframework/zend-mvc/releases.atom",
+                "slack": "https://zendframework-slack.herokuapp.com",
+                "source": "https://github.com/zendframework/zend-mvc"
             },
             "abandoned": "laminas/laminas-mvc",
-            "time": "2017-05-01T20:21:57+00:00"
+            "time": "2017-11-24T06:32:07+00:00"
         },
         {
             "name": "zendframework/zend-router",
-            "version": "3.1.0",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-router.git",
-                "reference": "f5dbec5398ca98b35170716ec5146029197fe249"
+                "reference": "b113a4cfd910ee4723079fa58a9bcf3198631620"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-router/zipball/f5dbec5398ca98b35170716ec5146029197fe249",
-                "reference": "f5dbec5398ca98b35170716ec5146029197fe249",
+                "url": "https://api.github.com/repos/zendframework/zend-router/zipball/b113a4cfd910ee4723079fa58a9bcf3198631620",
+                "reference": "b113a4cfd910ee4723079fa58a9bcf3198631620",
                 "shasum": ""
             },
             "require": {
                 "container-interop/container-interop": "^1.2",
                 "php": "^5.6 || ^7.0",
-                "zendframework/zend-http": "^2.6",
+                "zendframework/zend-http": "^2.8.1",
                 "zendframework/zend-servicemanager": "^2.7.8 || ^3.3",
-                "zendframework/zend-stdlib": "^2.7.7 || ^3.1"
+                "zendframework/zend-stdlib": "^3.2.1"
             },
             "conflict": {
                 "zendframework/zend-mvc": "<3.0.0"
@@ -4025,8 +4041,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1.x-dev",
-                    "dev-develop": "3.2.x-dev"
+                    "dev-master": "3.3.x-dev",
+                    "dev-develop": "4.0.x-dev"
                 },
                 "zf": {
                     "component": "Zend\\Router",
@@ -4059,7 +4075,7 @@
                 "source": "https://github.com/zendframework/zend-router"
             },
             "abandoned": "laminas/laminas-router",
-            "time": "2018-06-18T21:10:59+00:00"
+            "time": "2019-02-26T20:24:12+00:00"
         },
         {
             "name": "zendframework/zend-servicemanager",
@@ -4140,32 +4156,32 @@
         },
         {
             "name": "zendframework/zend-uri",
-            "version": "2.6.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-uri.git",
-                "reference": "fb998b9487ea8c5f4aaac0e536190709bdd5353b"
+                "reference": "bfc4a5b9a309711e968d7c72afae4ac50c650083"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-uri/zipball/fb998b9487ea8c5f4aaac0e536190709bdd5353b",
-                "reference": "fb998b9487ea8c5f4aaac0e536190709bdd5353b",
+                "url": "https://api.github.com/repos/zendframework/zend-uri/zipball/bfc4a5b9a309711e968d7c72afae4ac50c650083",
+                "reference": "bfc4a5b9a309711e968d7c72afae4ac50c650083",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0",
                 "zendframework/zend-escaper": "^2.5",
-                "zendframework/zend-validator": "^2.5"
+                "zendframework/zend-validator": "^2.10"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.2.1 || ^5.7.15",
+                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.4",
                 "zendframework/zend-coding-standard": "~1.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6.x-dev",
-                    "dev-develop": "2.7.x-dev"
+                    "dev-master": "2.7.x-dev",
+                    "dev-develop": "2.8.x-dev"
                 }
             },
             "autoload": {
@@ -4177,18 +4193,22 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "a component that aids in manipulating and validating » Uniform Resource Identifiers (URIs)",
-            "homepage": "https://github.com/zendframework/zend-uri",
+            "description": "A component that aids in manipulating and validating » Uniform Resource Identifiers (URIs)",
             "keywords": [
+                "ZendFramework",
                 "uri",
-                "zf2"
+                "zf"
             ],
             "support": {
+                "chat": "https://zendframework-slack.herokuapp.com",
+                "docs": "https://docs.zendframework.com/zend-uri/",
+                "forum": "https://discourse.zendframework.com/c/questions/components",
                 "issues": "https://github.com/zendframework/zend-uri/issues",
-                "source": "https://github.com/zendframework/zend-uri/tree/release-2.6.0"
+                "rss": "https://github.com/zendframework/zend-uri/releases.atom",
+                "source": "https://github.com/zendframework/zend-uri"
             },
             "abandoned": "laminas/laminas-uri",
-            "time": "2018-04-10T17:08:10+00:00"
+            "time": "2019-10-07T13:35:33+00:00"
         }
     ],
     "aliases": [],
