@@ -3,9 +3,9 @@
 namespace Laminas\Romans\Romans\Factory;
 
 use Interop\Container\ContainerInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 use Romans\Grammar\Grammar as RomansGrammar;
 use Romans\Lexer\Lexer as RomansLexer;
-use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Lexer Factory

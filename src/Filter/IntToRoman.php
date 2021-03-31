@@ -2,9 +2,9 @@
 
 namespace Laminas\Romans\Filter;
 
+use Laminas\Filter\FilterInterface;
 use Romans\Filter\Exception as FilterException;
 use Romans\Filter\IntToRoman as IntToRomanFilter;
-use Zend\Filter\FilterInterface;
 
 /**
  * Integer to Roman Number Filter

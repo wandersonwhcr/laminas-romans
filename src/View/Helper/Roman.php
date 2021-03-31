@@ -3,7 +3,7 @@
 namespace Laminas\Romans\View\Helper;
 
 use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
-use Zend\View\Helper\AbstractHelper;
+use Laminas\View\Helper\AbstractHelper;
 
 /**
  * Roman Helper

@@ -4,8 +4,8 @@ namespace Laminas\Romans\Filter\Factory;
 
 use Interop\Container\ContainerInterface;
 use Laminas\Romans\Filter\RomanToInt as RomanToIntFilter;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 use Romans\Filter as RomansFilter;
-use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**
  * RomanToInt Filter Factory

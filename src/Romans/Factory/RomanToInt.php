@@ -3,11 +3,11 @@
 namespace Laminas\Romans\Romans\Factory;
 
 use Interop\Container\ContainerInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 use Romans\Filter\RomanToInt as RomanToIntFilter;
 use Romans\Grammar\Grammar as RomansGrammar;
 use Romans\Lexer\Lexer as RomansLexer;
 use Romans\Parser\Parser as RomansParser;
-use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**
  * RomanToInt Filter Factory

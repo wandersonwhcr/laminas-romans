@@ -2,10 +2,10 @@
 
 namespace Laminas\Romans\Validator;
 
+use Laminas\Validator\AbstractValidator;
 use Romans\Filter\RomanToInt as RomanToIntFilter;
 use Romans\Lexer\Exception as LexerException;
 use Romans\Parser\Exception as ParserException;
-use Zend\Validator\AbstractValidator;
 
 /**
  * Roman Validator

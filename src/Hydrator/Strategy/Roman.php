@@ -3,9 +3,9 @@
 namespace Laminas\Romans\Hydrator\Strategy;
 
 use InvalidArgumentException;
+use Laminas\Hydrator\Strategy\StrategyInterface;
 use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
 use Laminas\Romans\Filter\RomanToInt as RomanToIntFilter;
-use Zend\Hydrator\Strategy\StrategyInterface;
 
 /**
  * Roman Number Hydrator Strategy

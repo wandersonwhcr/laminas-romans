@@ -5,7 +5,7 @@ namespace Laminas\Romans\View\Helper\Factory;
 use Interop\Container\ContainerInterface;
 use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
 use Laminas\Romans\View\Helper\Roman as RomanViewHelper;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Roman ViewHelper Factory

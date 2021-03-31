@@ -3,8 +3,8 @@
 namespace LaminasTest\Romans\Validator;
 
 use Laminas\Romans\Validator\Roman;
+use Laminas\Validator\ValidatorInterface;
 use PHPUnit\Framework\TestCase;
-use Zend\Validator\ValidatorInterface;
 
 /**
  * Roman Test

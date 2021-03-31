@@ -4,8 +4,8 @@ namespace LaminasTest\Romans\View\Helper;
 
 use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
 use Laminas\Romans\View\Helper\Roman;
+use Laminas\View\Helper\HelperInterface;
 use PHPUnit\Framework\TestCase;
-use Zend\View\Helper\HelperInterface;
 
 /**
  * Roman Test

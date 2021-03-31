@@ -3,9 +3,9 @@
 namespace Laminas\Romans\Romans\Factory;
 
 use Interop\Container\ContainerInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 use Romans\Filter\IntToRoman as IntToRomanFilter;
 use Romans\Grammar\Grammar as RomansGrammar;
-use Zend\ServiceManager\Factory\FactoryInterface;
 
 /**
  * IntToRoman Filter Factory

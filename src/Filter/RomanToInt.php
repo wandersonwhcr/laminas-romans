@@ -2,10 +2,10 @@
 
 namespace Laminas\Romans\Filter;
 
+use Laminas\Filter\FilterInterface;
+use Romans\Filter\RomanToInt as BaseRomanToInt;
 use Romans\Lexer\Exception as LexerException;
 use Romans\Parser\Exception as ParserException;
-use Romans\Filter\RomanToInt as BaseRomanToInt;
-use Zend\Filter\FilterInterface;
 
 /**
  * Roman Number to Integer Filter

@@ -6,7 +6,7 @@ use Interop\Container\ContainerInterface;
 use Laminas\Romans\Filter\IntToRoman as IntToRomanFilter;
 use Laminas\Romans\Filter\RomanToInt as RomanToIntFilter;
 use Laminas\Romans\Hydrator\Strategy\Roman as RomanStrategy;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Roman Hydrator Strategy Factory
