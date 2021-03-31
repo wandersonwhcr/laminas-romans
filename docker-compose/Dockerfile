@@ -1,4 +1,4 @@
-FROM php:7.2-cli-alpine
+FROM php:7.3-cli-alpine
 
 ENV COMPOSER_CACHE_DIR /tmp
 
